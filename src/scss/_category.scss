@@ -1,0 +1,22 @@
+#categorias {
+    background: $font-color-primary;
+}
+
+.category {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 1.1rem;
+    text-align: center;
+
+    &__item {
+        margin: 1rem;
+        text-align: center;
+        span {
+            color: $color-secondary;
+        }
+    }
+}
+
